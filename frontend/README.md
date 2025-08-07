@@ -3,7 +3,11 @@
 
 ## 🚀 Overview
 
+<<<<<<< HEAD
 **commitHub** is a modern developer networking platform built with the MERN stack. Connect with fellow developers, showcase your skills, and build meaningful professional relationships in the tech community. This repository contains the React.js frontend that delivers a seamless, responsive user experience.
+=======
+**commitHub** is a MERN stack application where developers can create profiles, send connection requests, and connect with each other, similar to a networking platform. This repository contains the frontend for devTinder.
+>>>>>>> 018cb73a3d747ecb42963e05a796b95b8be621b7
 
 ## 🏗️ Installation & Setup
 
