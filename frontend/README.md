@@ -3,7 +3,7 @@
 
 ## 🚀 Overview
 
-**commitHub** is a MERN stack application where developers can create profiles, send connection requests, and connect with each other, similar to a networking platform. This repository contains the frontend for devTinder.
+**commitHub** is a MERN stack application where developers can create profiles, send connection requests, and connect with each other, similar to a networking platform. This repository contains the frontend for commitHub.
 
 ## 🏗️ Installation & Setup
 
@@ -38,7 +38,7 @@ npm run dev
 
 ## 🔧 API Endpoints
 
-The frontend interacts with the backend API hosted in the [backend]([https://github.com/akshadjaiswal/devTinder-backend](https://github.com/prathameshchavan23/CommitHub/tree/main/backend)). Ensure the backend is running before using the frontend.
+The frontend interacts with the backend API hosted in the [backend]((https://github.com/prathameshchavan23/CommitHub/tree/main/backend)). Ensure the backend is running before using the frontend.
 
 ## 📜 License
 

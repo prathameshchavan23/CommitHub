@@ -133,8 +133,6 @@ Status: ignore, interested, accepted, rejected
 
 ## 🏗️ Setup & Running the Server
 
-# 🏗️ Setup & Running the Server
-
 ### **1️⃣ Clone the Repository**
 
 ```bash
