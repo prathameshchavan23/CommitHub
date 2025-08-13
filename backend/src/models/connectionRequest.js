@@ -31,12 +31,12 @@ connectRequestSchema.index({ fromUserId: 1, toUserId: 1 });
 connectRequestSchema.pre("save", function (next) {
   const connectionRequest = this;
   if (connectionRequest.fromUserId.equals(connectionRequest.toUserId)) {
-    throw new Error("Cannot send connection request to Yourself");
+    return next(new Error("Cannot send connection request to yourself"));
   }
   next();
 });
 
-const connectRequestModel = new mongoose.model(
+const connectRequestModel =  mongoose.model(
   "ConnectionRequest",
   connectRequestSchema
 );
