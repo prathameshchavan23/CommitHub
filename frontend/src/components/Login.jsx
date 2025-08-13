@@ -1,9 +1,9 @@
 import axios from "axios";
 import React, { useState } from "react";
-import { addUser } from "./utils/userSlice";
+import { addUser } from "../utils/userSlice";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { BASE_URL } from "./utils/constants";
+import { BASE_URL } from "../utils/constants";
 
 const Login = () => {
   const [emailId, setEmailId] = useState("");
@@ -51,7 +51,7 @@ const Login = () => {
       <div className="relative">
         {/* Animated background gradient */}
         <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 rounded-2xl blur opacity-75 animate-pulse"></div>
-        
+
         {/* Main card */}
         <div className="relative bg-gray-900 p-8 rounded-2xl shadow-2xl border border-gray-800 w-full max-w-md backdrop-blur-sm">
           {/* Header with gradient text */}
@@ -147,7 +147,10 @@ const Login = () => {
 
           {/* Decorative elements */}
           <div className="absolute -top-4 -right-4 w-8 h-8 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-60 animate-bounce"></div>
-          <div className="absolute -bottom-4 -left-4 w-6 h-6 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full opacity-60 animate-bounce" style={{animationDelay: '1s'}}></div>
+          <div
+            className="absolute -bottom-4 -left-4 w-6 h-6 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full opacity-60 animate-bounce"
+            style={{ animationDelay: "1s" }}
+          ></div>
         </div>
       </div>
     </div>

@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Feed from "./Feed";
 import axios from "axios";
-import { BASE_URL } from "./utils/constants";
+import { BASE_URL } from "../utils/constants";
 import { useDispatch } from "react-redux";
-import { removeUserFromFeed } from "./utils/feedSlice";
+import { removeUserFromFeed } from "../utils/feedSlice";
 
 const UserCard = ({ user }) => {
   const [error, setError] = useState("");
